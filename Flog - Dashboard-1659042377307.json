@@ -42,7 +42,7 @@
       },
       "id": 4,
       "options": {
-        "content": "# Test dashboard \n\n> Tech used\n\n- loki\n- grafana\n- flog (log generator)\n- minio S3 \n\nIn this dashboard you can find charts, tables\n\nPlease call \n\n`kenriortega` IT operator\n\n\n\n\n\n",
+        "content": "# Flog Dashboard\n\n> Tech used\n\n- loki\n- grafana\n- promtail\n- flog (log generator)\n- minio S3 \n\n\n\nauthor: `kenriortega`\n\n\n\n\n\n",
         "mode": "markdown"
       },
       "pluginVersion": "9.0.5",
@@ -393,6 +393,7 @@
       "type": "logs"
     }
   ],
+  "refresh": "15m",
   "schemaVersion": 36,
   "style": "dark",
   "tags": [],
@@ -407,6 +408,6 @@
   "timezone": "",
   "title": "Flog - Dashboard",
   "uid": "u5mYcWzVk",
-  "version": 5,
+  "version": 2,
   "weekStart": ""
 }
