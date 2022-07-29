@@ -42,26 +42,3 @@ ruler:
     s3:
       bucketnames: loki-ruler
 
-
-# Cassandra settings
-# storage_config:
-#   cassandra:
-#     addresses: <comma-separated-IPs-or-hostnames>
-#     keyspace: <keyspace>
-#     auth: <true|false>
-#     username: <username> # only applicable when auth=true
-#     password: <password> # only applicable when auth=true
-
-# schema_config:
-#   configs:
-#     - from: 2020-07-01
-#       store: cassandra
-#       object_store: cassandra
-#       schema: v11
-#       index:
-#         prefix: index_
-#         period: 168h
-#       chunks:
-#         prefix: chunk_
-#         period: 168h
-
